@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Projeto Agrinho</title>
+    <style>
+        body { font-family: Arial; text-align: center; background: #f0f0f0; padding: 20px; }
+        h1 { color: blue; }
+        .card { 
+            background: white; 
+            border: 2px solid blue; 
+            border-radius: 10px;
+            width: 300px; 
+            margin: 20px auto; 
+            padding: 20px;
+        }
+        .resposta { display: none; color: green; font-weight: bold; }
+        .card:hover .resposta { display: block; }
+        .card:hover .pergunta { display: none; }
+    </style>
+</head>
+<body>
+    <h1>Fake ou Verdade?</h1>
+    <p>Passe o mouse nos cartões</p>
+
+    <div class="card">
+        <div class="pergunta">
+            <h3>Notícia 1</h3>
+            <p>Beber água com limão emagrece</p>
+        </div>
+        <div class="resposta">
+            <h3>FALSO ❌</h3>
+            <p>Não existe comprovação científica. Fonte: Lupa</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="pergunta">
+            <h3>Notícia 2</h3>
+            <p>Vacinas são seguras e testadas</p>
+        </div>
+        <div class="resposta">
+            <h3>VERDADEIRO ✅</h3>
+            <p>Anvisa testa todas antes de liberar. Fonte: Aos Fatos</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="pergunta">
+            <h3>Notícia 3</h3>
+            <p>Wi-Fi causa câncer</p>
+        </div>
+        <div class="resposta">
+            <h3>FALSO ❌</h3>
+            <p>Não há evidências. Fonte: E-Farsas</p>
+        </div>
+    </div>
+
+</body>
+</html>
